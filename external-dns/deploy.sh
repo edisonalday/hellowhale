@@ -2,4 +2,4 @@
 
 echo "Create the external-dns service deployment"
 kubectl config set-cluster current-cluster --server=${KUBERNETES_SERVER} --insecure-skip-tls-verify=true
-kubectl apply -f external-dns/external-dns.yaml --token=${KUBERNETES_AUTH_TOKEN} --namespace=kube-system
+kubectl apply -f external-dns/external-dns.yaml 
