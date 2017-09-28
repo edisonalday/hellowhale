@@ -6,9 +6,11 @@ metadata:
   annotations:
     external-dns.alpha.kubernetes.io/hostname: hellowhale.gotouche.com.
 spec:
-  type: LoadBalancer
   ports:
+  - name: http
     port: 80
+    protocol: TCP
     targetPort: 80
   selector:
     app: nginx
+  type: LoadBalancer
