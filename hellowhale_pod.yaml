@@ -4,7 +4,7 @@ metadata:
   labels:
     app: nginx
   name: hellowhale
-  namespace: --namespace=${KUBERNETES_NAMESPACE}
+  namespace: default
 spec:
   containers:
   - image: ealday/hellowhale:latest
