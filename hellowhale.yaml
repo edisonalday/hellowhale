@@ -8,10 +8,26 @@ metadata:
   namespace: default
 spec:
   containers:
-  - image: ealday/hellowhale:${BUILD_NUMBER}
-    name: healday/hellowhale:${BUILD_NUMBER}
+  - image: ealday/hellowhale:latest
+    name: hellowhale
 
-
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hellowhale
+  namespace: default
+spec:
+  template:
+    metadata:
+      labels:
+        app: hellowhale
+    spec:
+      containers:
+      - name: hello
+        image: ealday/hellowhale:latest
+        ports:
+        - containerPort: 8080
+        
 apiVersion: v1
 kind: Service
 metadata:
@@ -25,21 +41,3 @@ spec:
     targetPort: 80
   selector:
     app: nginx
-
----
-
-apiVersion: extensions/v1beta1
-kind: Deployment
-metadata:
-  name: hellowhale
-spec:
-  template:
-    metadata:
-      labels:
-        app: nginx
-    spec:
-      containers:
-      - image: ealday/hellowhale:${BUILD_NUMBER}
-        name: ealday/hellowhale:${BUILD_NUMBER}
-        ports:
-        - containerPort: 80
