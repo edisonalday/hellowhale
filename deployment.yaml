@@ -10,7 +10,7 @@ spec:
         app: hellowhale
     spec:
       containers:
-      - name: ealday/hellowhale:${BUILD_NUMBER}
-        image: ealday/hellowhale:${BUILD_NUMBER}
+      - name: hello
+        image: ealday/hellowhale:latest
         ports:
         - containerPort: 8080
