@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hellowhale
+  namespace: default
+spec:
+  template:
+    metadata:
+      labels:
+        app: hellowhale
+    spec:
+      containers:
+      - name: hellowhale
+        image: ealday/hellowhale:latest
+        ports:
+        - containerPort: 8080
