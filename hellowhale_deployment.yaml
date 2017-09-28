@@ -7,10 +7,11 @@ spec:
   template:
     metadata:
       labels:
+        name: hellowhale
         app: hellowhale
     spec:
       containers:
       - name: hellowhale
-        image: ealday/hellowhale:latest
+        image: ${IMAGE_NAME}
         ports:
         - containerPort: 8080
