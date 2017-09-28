@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
       - name: hellowhale
-        image: ${IMAGE_NAME}
+        image: ealday/hellowhale
         ports:
-        - containerPort: 8080
+        - containerPort: 80
