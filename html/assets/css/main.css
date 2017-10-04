@@ -1883,7 +1883,7 @@
 			border-radius: 100%;
 			display: inline-block;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 1px rgb(0, 0, 0);
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
