@@ -17,6 +17,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		background: #FFFFFF;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2437,7 +2438,7 @@
 			flex-direction: column;
 			width: calc(100% / 3);
 			padding-left: 2em;
-			background: #FFFFFF
+
 		}
 
 			.thumbnails > div > :last-child {
