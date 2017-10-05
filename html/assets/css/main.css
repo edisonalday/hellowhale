@@ -2501,7 +2501,7 @@
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		background: #FFFFFF;
+		background-image: #FFFFFF;
 		box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
 		border-radius: 4px;
 		overflow: hidden;
