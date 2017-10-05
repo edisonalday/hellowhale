@@ -2622,15 +2622,16 @@
 
 	#footer {
 		text-align: center;
-		padding: 4em 0 4em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		#footer:before {
 			content: '';
 			border-top: solid 1px rgba(0, 0, 0, 0.25);
-			width: 10em;
+			width: 30em;
 			display: block;
 			margin: 0 auto 3em auto;
+			font-color: rgba(0, 0, 0, 0.25);
 		}
 
 		@media screen and (max-width: 1280px) {
