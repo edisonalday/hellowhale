@@ -17,7 +17,6 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		color: rgb(0, 0, 0);
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2624,6 +2623,12 @@
 	#footer {
 		text-align: center;
 		padding: 2em 0 2em 0;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 80%;
+		font: inherit;
+		color: rgb(0, 0, 0);
 	}
 
 		#footer:before {
