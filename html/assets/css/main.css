@@ -2631,7 +2631,7 @@
 			width: 30em;
 			display: block;
 			margin: 0 auto 3em auto;
-			font-color: rgba(0, 0, 0, 0.25);
+			color: rgb(0, 0, 0);
 		}
 
 		@media screen and (max-width: 1280px) {
