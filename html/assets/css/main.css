@@ -17,6 +17,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		color: rgb(0, 0, 0);
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2631,7 +2632,7 @@
 			width: 30em;
 			display: block;
 			margin: 0 auto 3em auto;
-			color: rgb(0, 0, 0);
+
 		}
 
 		@media screen and (max-width: 1280px) {
