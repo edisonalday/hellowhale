@@ -2501,7 +2501,7 @@
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		background-image: #FFFFFF;
+		background: rgba(255, 255, 255, 0.25);
 		box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
 		border-radius: 4px;
 		overflow: hidden;
@@ -2524,6 +2524,7 @@
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
+			background: rgba(255, 255, 255, 0.25);
 		}
 
 			.poptrox-popup .closer:before {
